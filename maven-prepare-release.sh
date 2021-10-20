@@ -5,7 +5,6 @@ set -eo pipefail
 # Input args:
 # - $1: the version ID, e.g.: 1.0.0 (mandatory)
 
-
 # Input validation
 if [[ $1 == "" ]]
 then
@@ -17,9 +16,6 @@ fi
 # Variables
 versionId=$1
 version="${versionId}-RELEASE"
-
-
-cd ..
 
 
 # Maven setup
