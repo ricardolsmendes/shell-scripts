@@ -4,6 +4,11 @@ A collection of Shell Scripts intended to automate regular tasks.
 
 ## For Developers
 
+### asdf-update-plugin.sh
+
+Update an ASDF plugin to the latest version, install it, and pin that version
+in `~/.tool-versions`.
+
 ### git-update-nested-repos.sh
 
 Update all Git local repositories nested to a given directory by running
